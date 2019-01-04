@@ -1,0 +1,9 @@
+<!--pages/myLove/love/index.wxml-->
+<view class="myLove">
+    <view class="top">
+        <view class="type">{{typeText[type]}}</view>
+        <v-like love="{{loveNumber}}"  isLike="{{true}}"/>
+    </view>
+    <image src="{{imageUrl}}" class="picture"/>
+    <view class="text">{{text}}</view>
+</view>

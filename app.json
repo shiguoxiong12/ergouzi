@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/classic/classic",
+    "pages/book/index",
+    "pages/bookSearch/bookSearch",
+    "pages/myLove/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "快乐的二狗子",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "list": [
+      {
+        "pagePath": "pages/classic/classic",
+        "iconPath": "/imags/classic.png",
+        "selectedIconPath": "/imags/classic@highlight.png",
+        "text": "流行"
+      },
+      {
+        "pagePath": "pages/book/index",
+        "iconPath": "/imags/book.png",
+        "selectedIconPath": "/imags/book@highlight.png",
+        "text": "书单"
+      },
+      {
+        "pagePath": "pages/myLove/index",
+        "iconPath": "/imags/my.png",
+        "selectedIconPath": "/imags/my@highlight.png",
+        "text": "喜欢"
+      }
+    ]
+  }
+}

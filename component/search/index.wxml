@@ -1,0 +1,19 @@
+<!--component/search/index.wxml-->
+
+        <!--<view class="search-box">-->
+        <view class="{{searchCanel ? 'search-box-cancel':'search-box'}}">
+             <view class="sarch">
+                        <image src="./image/search.png" class="searchPng" />
+                        <view hidden="{{searchCanel}}">
+                            书籍名
+                        </view>
+                        <view><input type="text" placeholder="书籍名" hidden="{{!searchCanel}}"/></view>
+                        <image src="./image/cancel.png"  class="cancelPng" hidden="{{!searchCanel}}"/> 
+                </view>
+              <view class="cancel" hidden="{{!searchCanel}}" bindtap="canceLSearch">
+                    取消
+               </view> 
+            
+            </view>
+
+

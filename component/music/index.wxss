@@ -1,0 +1,53 @@
+/* component/music/index.wxss */
+.contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 780rpx;
+}
+.title{
+  
+    max-width:550rpx;
+}
+.musicBgImage{
+    width:400rpx;
+    height:400rpx;
+}
+.tag{
+    width:46rpx;
+    height:142rpx;
+    position: relative;
+    bottom: 60rpx;
+    right:310rpx;
+}
+.musicContent{
+    position: relative;
+   
+    border-radius:100%;
+    overflow: hidden;
+}
+.pointer{
+    position:absolute;
+    width:100rpx;
+    height:100rpx;
+    left:50%;
+    top:50%;
+   
+    transform: translate3d(-50%,-50%,0);
+}
+.anrotate{
+    transform: rotate(0);
+    animation: rotate 4s infinite linear;
+} 
+@keyframes rotate{
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

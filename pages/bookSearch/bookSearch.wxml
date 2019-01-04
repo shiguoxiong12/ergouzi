@@ -1,0 +1,29 @@
+<!--pages/bookSearch/bookSearch.wxml-->
+<v-search class="searchBox" searchCanel="{{true}}" bindtap="" bindnoSearch="goback"/>
+<view class="container">
+       
+        <view hidden="{{books.length>0}}">
+                <v-block hotbooks="{{hotbooks}}" bindsearchOne="getBooks"/>
+        </view>
+      
+        <view class="books" hidden="{{books.length==0}}">
+                <view class="books_block" wx:for="{{books}}">
+                      <image src="{{item.image}}"/>
+                      <view >
+                       <view class="books_desc">
+                           <view class="books_name">
+                               {{item.title}}
+                           </view>
+                           <view class="books_author">
+                               {{item.author}}
+                           </view>
+                       </view>
+                       <view class="books_like_count">
+                             {{item.fav_nums}}喜欢
+                       </view>
+                      </view>
+                    
+                </view>
+               
+           </view>
+</view>

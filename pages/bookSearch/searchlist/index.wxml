@@ -1,0 +1,11 @@
+<!--pages/bookSearch/searchlist/index.wxml-->
+<view class="container">
+    <view class="title">历史搜索</view>
+    <view class="list">
+
+        <view class="list-block" wx:for="{{hotbooks}}"  wx:key="{{index}}" data-name="{{item}}" bindtap="searchList">
+            {{item}}
+        </view>
+       
+    </view>
+</view>

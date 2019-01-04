@@ -1,0 +1,25 @@
+<!--pages/book/index.wxml-->
+<view class="container">
+    <v-search class="searchBox" searchCanel="{{false}}" bindtap="go"/>
+    <view class="title">精选</view>
+    <view class="books">
+         <view class="books_block" wx:for="{{books}}">
+               <image src="{{item.image}}"/>
+               <view >
+                <view class="books_desc">
+                    <view class="books_name">
+                        {{item.title}}
+                    </view>
+                    <view class="books_author">
+                        {{item.author}}
+                    </view>
+                </view>
+                <view class="books_like_count">
+                      {{item.fav_nums}}喜欢
+                </view>
+               </view>
+             
+         </view>
+        
+    </view>
+</view>

@@ -1,0 +1,10 @@
+<!--component/music/index.wxml musicBgImage-->
+<view class="contant">
+    <view class="musicContent" bindtap="togger">
+        <image src="{{imageUrl}}" width="100%" height="100%" class="{{play ? 'anrotate musicBgImage' : 'musicBgImage'}}"  />
+        <image src="{{play ? playImage : stopImage}}" class="tag" class="pointer"/>
+    </view>
+   
+    <image src="./image/音乐。@2x.png" class="tag"/>
+    <view class="title">{{text}}</view>
+</view>

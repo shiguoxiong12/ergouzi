@@ -1,0 +1,12 @@
+<view class="content-wraper">
+<view class="top">
+    <v-data data="{{classic.index}}"/>
+    <v-like love="{{classic.fav_nums}}" bindtoggleLove="toggleLove" idN="{{classic.id}}" type="{{classic.type}}" isLike="{{classic.like_status}}"/>
+</view>
+<view class="movie">
+        <v-movie imageUrl="{{classic.image}}" text="{{classic.content}}" wx:if="{{classic.type==100}}"/>
+        <v-music imageUrl="{{classic.image}}" classisc="{{classic}}" text="{{classic.content}}" wx:elif="{{classic.type==200}}"/>
+        <v-sentence imageUrl="{{classic.image}}" classisc="{{classic}}" text="{{classic.content}}" wx:else="{{classic.type==300}}"/>
+</view>
+<v-control classic="{{classic}}" latest="{{latest}}" firstLast="{{firstLast}}" class="control-bar" title="{{classic.title}}" bindnext="getNextClassisc" bindprev="getPrevClassisc"/> 
+</view>

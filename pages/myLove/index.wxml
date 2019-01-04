@@ -1,0 +1,36 @@
+<!--pages/myLove/index.wxml-->
+<view class="myLove">
+       
+   <view class="top">
+       <image src="/imags/my@bg.png" class="bg"/>
+       <view class="userInfo">
+           <view class="userAvatar"> 
+               <button open-type="getUserInfo" class="getUserBtn" bindgetuserinfo="getUser">
+                 <image src="{{userInfo.avatarUrl ? userInfo.avatarUrl : defaultImage}}" class="clickPicture" />
+              </button>
+           </view>
+           <view class="userName">
+               {{userInfo.nickName}}
+               
+           </view>
+           
+       </view>
+    
+       <view class="tabbar">
+           <view class="aboutUs">
+            <image src="/imags/about.png"/> 
+            <view class="likebook">喜欢的书</view>
+           </view>
+           <view class="books">
+               <text>211</text>
+               <view class="likebook">喜欢的书</view>
+           </view>
+       </view>
+   </view>
+   <view class="like">喜欢</view>
+  
+   <view class="myLoveBooks">
+        <v-love-search class="bookList" wx:for="{{loveBooks}}" text="{{item.content}}" imageUrl="{{item.image}}" type="{{item.type}}" loveNumber="{{item.fav_nums}}"/>
+       
+   </view>
+</view>

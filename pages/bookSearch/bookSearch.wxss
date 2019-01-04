@@ -1,0 +1,64 @@
+/* pages/bookSearch/bookSearch.wxss */
+.container{
+    width:100%;
+    height:100%;
+    
+}
+.searchBox{
+    position: fixed;
+    top:0;
+    z-index:990;
+    width:100%;
+}
+.books{
+    width:100%;
+    margin-top:70rpx; 
+    padding-top:20rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:40rpx;
+}
+.books_block{
+    width:40%;
+    margin-top:40rpx;
+    padding-top: 2px;
+    height:500rpx;
+    position: relative;
+    background-color: white;
+    border-radius:4px;
+    box-shadow: 5px 5px 5px #888888;
+   
+}
+.absolute{
+    position: absolute;
+    bottom:0;
+}
+.books_block>image{
+    width:100%;
+    height:75%;
+}
+.books_name{
+    color:black;
+    font-size: 12px;
+   
+}
+.books_author,.books_like_count{
+   font-size: 10px;
+  
+  
+}
+.books_name,.books_author{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.books_desc{
+    padding:0 10px 0 5px;
+}
+.books_like_count{
+   text-align: right;
+   padding:0 10px 0 0;
+}

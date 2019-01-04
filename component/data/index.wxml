@@ -1,0 +1,11 @@
+<!--component/data/index.wxml-->
+<view class='content1'>
+     <view class="number">
+        No.<text class="day">0{{data}}</text>
+     </view>
+     <view class="spliteLine"></view>
+     <view class="mounth">
+         <view class="item">十一月</view>
+         <view class="item">2018</view>
+     </view>
+</view>

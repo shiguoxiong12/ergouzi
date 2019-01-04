@@ -1,0 +1,16 @@
+/* component/control/index.wxss */
+.control{
+    min-width: 650rpx;
+    margin-top:20rpx;
+    height:80rpx;
+    background-color: azure;
+    padding:10rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.controlIcon image{
+    width:80rpx;
+    height:80rpx;
+}

@@ -1,0 +1,35 @@
+/* component/data/index.wxss */
+.content1{
+    height:80rpx;
+    color:black;
+    width:250rpx;
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+}
+.number{
+    position: absolute;
+    vertical-align: bottom;
+   
+}
+.spliteLine{
+    position: absolute;
+    left:145rpx;
+    top:10rpx;
+    width:2rpx;
+    height:60rpx;
+    margin: 0 20rpx;
+    background: black;
+}
+.number .day{
+    font-size: 70rpx;
+    vertical-align: bottom;
+    line-height:80rpx;
+}
+.mounth{
+    position: absolute;
+    font-size: 25rpx;
+    line-height:30rpx;
+    right:0;
+    top:10rpx; 
+}

@@ -1,0 +1,21 @@
+/* component/like/like.wxss */
+.content{
+    display:inline-flex;
+    flex-direction: row;
+    padding: 10rpx;
+}
+.content image{
+    width:26rpx;
+    height:23rpx;
+}
+.fen{
+    margin-left:40rpx
+}
+.content text{
+    font-size: 24rpx;
+    line-height: 24rpx;
+    color:"#bbbbbbbb";
+    position: relative;
+    bottom:10rpx;
+    left:6rpx;
+}

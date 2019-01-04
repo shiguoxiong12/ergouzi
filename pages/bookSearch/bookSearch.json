@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "v-search": "../../component/search/index",
+    "v-block":"./searchlist/index"
+  }
+}

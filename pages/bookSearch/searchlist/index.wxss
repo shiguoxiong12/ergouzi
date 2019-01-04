@@ -1,0 +1,26 @@
+/* pages/bookSearch/searchlist/index.wxss */
+.container{
+    padding:0 20rpx;
+    margin-top:120rpx;
+}
+.title{
+    height:40rpx;
+    line-height: 40rpx;
+    padding-left: 20rpx;
+    border-left:4px solid black;
+}
+.list{
+    padding-left: 30rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+
+}
+.list-block{
+    margin: 20rpx 20rpx;
+    background-color: #ccc;
+    color:black;
+    padding: 5rpx 20rpx;
+    border-radius:3px;
+}

@@ -1,0 +1,11 @@
+<view class="control">
+    <view class="prev controlIcon" catchtap="prev" data-index="{{classic.index}}">
+      
+         <image src="{{firstLast ? dispreveIcon : preveIcon}}"/> 
+    </view>
+    <view class="name">{{title}}</view>
+    <view class="next controlIcon"  catchtap="next" data-index="{{classic.index}}" >
+          
+        <image src="{{latest ? disNextIcon : nextIcon}}"/>
+    </view>
+</view>

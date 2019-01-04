@@ -1,0 +1,26 @@
+/* pages/myLove/love/index.wxss */
+.myLove{
+    width:300rpx;
+   
+    border-radius:2px;
+    margin-top:20rpx;
+    padding-bottom: 30rpx;
+    background-color: #fff;
+}
+.top{
+    height:60rpx;
+    padding:10rpx 30rpx;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.myLove .picture{
+    width:300rpx;
+    height:200rpx;
+}
+.text{
+    font-size: 12px;
+    height:80rpx;
+    padding: 20rpx 30rpx;
+}

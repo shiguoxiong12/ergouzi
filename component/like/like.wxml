@@ -1,0 +1,7 @@
+<!--component/like/like.wxml-->
+<view class="content">
+    <image src="{{isLike==0 ? unlikeSrc : likeSrc}}"  catchtap="toggleLive"/>
+    <text>{{love}}</text>
+    <!-- <image src="./images/fen@2x.png" class="fen"/> -->
+</view>
+

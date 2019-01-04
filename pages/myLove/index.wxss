@@ -1,0 +1,69 @@
+/* pages/myLove/index.wxss */
+.top{
+    position: relative;
+}
+.tabbar{
+    position: absolute;
+    width:100%;
+    bottom:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20rpx 0;
+}
+.aboutUs,.books{
+    text-align: center;
+    font-size: 12px;
+   
+}
+.bg{
+    width:100%;
+}
+.likebook{
+    margin-top:10rpx;
+}
+.tabbar image{
+    width:40rpx;
+    height:40rpx;
+}
+.userInfo{
+    position: absolute;
+    bottom:160rpx;
+    left:50%;
+   transform: translateX(-50%);
+}
+.like{
+    height:100rpx;
+    line-height: 100rpx;
+    background-color: #ccc;
+    color:#000;
+    text-align: center;
+}
+.userAvatar{
+    width:120rpx;
+    height:120rpx;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.myLoveBooks{
+    display: flex;
+    flex-direction: row;
+    padding: 0 47rpx;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ccc;
+    padding-bottom:30rpx;
+}
+.bookList{
+
+}
+.getUserBtn{
+    width:100%;
+    height:100%;
+    padding:0;
+}
+.clickPicture{
+    width:100%;
+    height:100%;
+}

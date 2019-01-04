@@ -1,0 +1,10 @@
+{
+    "usingComponents":{
+        "v-like":"../../component/like/like",
+        "v-data": "../../component/data/index",
+        "v-control": "../../component/control/index",
+        "v-music":"../../component/music/index",
+        "v-movie": "../../component/movie/index",
+        "v-sentence": "../../component/sentence/index"
+    }
+}
